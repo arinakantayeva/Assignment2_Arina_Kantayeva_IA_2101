@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans MT";
+    margin: 0;
+}
+
+.header2 {
+    padding: 10rem;
+    background-image: url("gettyimages-1276395472_sf.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+}
+.header2 h1 {
+    font-size: 4rem;
+    color: #000000;
+}
+
+h1 {
+    padding: 50px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.notmain1 {
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+}
+
+
+.notmain1 p{
+    padding: 2rem;
+}
+
+
+.footer {
+    padding: 2.5rem;
+    background: #0a0707;
+}
+
+.footer h2 {
+    text-align: right;
+    color: #f1f1f1;
+    font-size: 15px;
+}
+
+.container {
+    font-family: "Gill Sans MT";
+    text-align: center;
+}
+

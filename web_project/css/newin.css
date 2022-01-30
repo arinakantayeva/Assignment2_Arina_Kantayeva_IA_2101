@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans MT";
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    padding: 50px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.header2 {
+    padding: 10rem;
+    background-image: url("20210916000704_0.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+}
+.header2 h1 {
+    font-size: 4rem;
+    color: #02051c;
+}
+
+.display {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.notmain1 {
+    text-align: center;
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.image {
+    transition: 1s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.main {
+    text-align: center;
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.notmain2 {
+    text-align: center;
+    -ms-flex: 33%;
+    flex: 33%;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+.Register {
+    background-color: rgb(14, 34, 98);
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Register h2 {
+    color: white;
+}
+
+.footer {
+    padding: 2.5rem;
+    background: #0a0707;
+}
+
+.footer h2 {
+    text-align: right;
+    color: #f1f1f1;
+    font-size: 15px;
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans MT";
+    margin: 0;
+}
+
+.container p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.header {
+    padding: 10rem;
+    background-image: url("zendaya.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 300%;
+    color: #a80505;
+}
+
+.footer {
+    padding: 5%;
+    background: #0a0707;
+}
+
+.footer h2 {
+    text-align: right;
+    color: #f1f1f1;
+    font-size: 15px;
+}
